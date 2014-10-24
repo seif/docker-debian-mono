@@ -1,5 +1,7 @@
 FROM debian
 
+MAINTAINER Seif Attar <docker@seifattar.net>
+
 RUN apt-get update \
         && apt-get install wget  -y --no-install-recommends \
         && echo "deb http://download.mono-project.com/repo/debian wheezy main" > /etc/apt/sources.list.d/mono-xamarin.list \
