@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian
 
 MAINTAINER Seif Attar <docker@seifattar.net>
 
