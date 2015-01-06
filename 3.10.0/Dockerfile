@@ -1,4 +1,4 @@
-FROM debian
+FROM ubuntu
 
 MAINTAINER Seif Attar <docker@seifattar.net>
 
@@ -11,4 +11,4 @@ RUN apt-get update \
         && apt-get purge wget -y \
         && apt-get autoremove -y \
         && apt-get clean \
-        && rm -rf /var/lib/apt/lists/* /var/tmp/* \
+        && rm -rf /var/lib/apt/lists/* /var/tmp/*
